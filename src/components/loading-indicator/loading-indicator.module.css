@@ -1,0 +1,20 @@
+.loader {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+    opacity: 0.75;
+}
+
+.loader svg {
+    opacity: 1;
+    width: 74px;
+    height: 74px;
+    stroke: var(--active-color);
+}
