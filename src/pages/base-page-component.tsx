@@ -3,7 +3,6 @@ import { debug, sendErrorLog } from 'util/misc'
 import { LoadingIndicator } from 'components/loading-indicator/loading-indicator'
 import { ErrorPlaceholder } from 'components/error-placeholder/error-placeholder'
 import { action, observable } from 'mobx'
-import { observer } from 'mobx-react'
 
 export enum Phase {
   Loading,
